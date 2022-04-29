@@ -34,9 +34,7 @@ jobs:
         with:
           flutter-version: '2.10.4'
           architecture: x64
-      - name: Flutter Pub Get 🗄️
-        run: flutter pub get
-      - name: Flutter Analyze 🧪
-        run: Flutter analyze
-      - name: Build App ⚙️
-        run: flutter build ios --release --no-codesign
+      - run: flutter pub get
+      - run: flutter analyze
+      # Build ios --release --no-codesign.
+      - run: flutter build ios --release --no-codesign

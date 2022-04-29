@@ -34,14 +34,12 @@ jobs:
         with:
           flutter-version: '2.10.4'
           channel: 'stable'
-      - name: Flutter Pub Get 🗄️
-        run: flutter pub get
-      - name: Flutter Analyze 🧪
-        run: Flutter analyze
-      - name: Build App ⚙️
-        run: flutter build apk --debug 
-      - name: Upload App 📤
-        uses: actions/upload-artifact@v1
+      - run: flutter pub get
+      - run: flutter analyze
+      # Build apk.
+      - run: flutter build apk  
+      # Upload generated apk to the artifacts.
+      - uses: actions/upload-artifact@v1
         with:
           name: debug-apk
           path: build/app/outputs/apk/debug/app-debug.apk
