@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "953527312077",
+    "project_id": "kibaya-news",
+    "storage_bucket": "kibaya-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953527312077:android:2b65d2876b963bbaa25384",
+        "android_client_info": {
+          "package_name": "com.kibayanews.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953527312077-1kobpud8nndi3h251prq73scelm7ebq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kibayanews.app",
+            "certificate_hash": "175e97398f40ce30137f61cfa99a3663f46f335a"
+          }
+        },
+        {
+          "client_id": "953527312077-r5giqsmgje3hra9fds5k0sqs4soaj0b2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kibayanews.app",
+            "certificate_hash": "a2a4a46ee913e49548340a4f229ad4b37c295bed"
+          }
+        },
+        {
+          "client_id": "953527312077-4befg04rglngup93jt5b59078k5euovu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHGLPBUspoyDyBTPYuEwHWSdqgOXRRnIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953527312077-4befg04rglngup93jt5b59078k5euovu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "953527312077-5segi6ej5j1ipgv76ae42ui4iuo7so17.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kibayanews.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
